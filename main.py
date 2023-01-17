@@ -3,7 +3,7 @@ from openai_api import ask_question
 from clear_screen import cls
 
 def menu():
-    # cls()
+    cls()
     finished = False
     while finished == False:
         print("MENU")

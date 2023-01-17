@@ -13,7 +13,6 @@ voices = engine.getProperty('voices')
 for voice in voices:
     if 'Microsoft Zira Desktop - English (United States)' in voice.name:
         engine.setProperty('voice', voice.id)
-        print("Voz actual: ", voice.name)
         break
 
 def lain_say(text_to_speak="Hola"):
